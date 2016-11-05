@@ -84,7 +84,7 @@
 {% endif %}
 {% endnevercache %}
 
-<!--<h1>{% block title %}{% endblock %}</h1>-->
+<h3 style="margin-top:50px;">{% block title %}{% endblock %}</h3>
 
 <!--<ul class="breadcrumb">
 {% spaceless %}
@@ -94,7 +94,7 @@
 
 </div>
 
-<div class="container" style="margin-top:50px;">
+<div class="container">
 <div class="row">
 
 <!--<div class="col-md-2 left">
@@ -103,11 +103,11 @@
     {% endblock %}
 </div>-->
 
-<div class="col-md-7 middle">
+<div class="col-md-8 middle">
     {% block main %}{% endblock %}
 </div>
 
-<div class="col-md-3 right">
+<div class="col-md-4 right">
     {% nevercache %}
     {% include "includes/language_selector.html" %}
     {% include "includes/user_panel.html" %}
